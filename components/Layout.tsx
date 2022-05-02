@@ -3,8 +3,9 @@ import { Box } from "@chakra-ui/react";
 
 import Footer from "./Footer";
 import Navbar from "./NavBar";
+import React from "react";
 
-export default function Layout({ children }) {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <Head>
@@ -21,4 +22,6 @@ export default function Layout({ children }) {
       </Box>
     </>
   );
-}
+};
+
+export default Layout;

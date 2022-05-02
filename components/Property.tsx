@@ -7,7 +7,7 @@ import { BsGridFill } from "react-icons/bs";
 import { GoVerified } from "react-icons/go";
 import millify from "millify";
 
-import DefaultImage from "../assets/images/house.jpg";
+import DefaultImage from "../assets/images/house.jpeg";
 
 const Property = ({
   property: {
