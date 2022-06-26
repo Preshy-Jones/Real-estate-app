@@ -16,7 +16,6 @@
     "@types/nprogress": "^0.2.0",
     "axios": "^0.27.2",
     "framer-motion": "^6",
-    "g": "^2.0.1",
     "millify": "^4.0.0",
     "next": "12.1.5",
     "nprogress": "^0.2.0",
