@@ -28,7 +28,7 @@ const PropertyDetails = ({
 }: any) => (
   <Box maxWidth="1000px" margin="auto" p="4">
     {photos && <ImageScrollbar data={photos} />}
-    <pre>{JSON.stringify(photos, null, 2)}</pre>
+    {/* <pre>{JSON.stringify(photos, null, 2)}</pre> */}
     <Box w="full" p="6">
       <Flex paddingTop="2" alignItems="center">
         <Box paddingRight="3" color="green.400">
@@ -129,7 +129,7 @@ export default PropertyDetails;
 
 export async function getServerSideProps({ params: { id } }: any) {
   const data = await fetchApi(`${baseUrl}/properties/detail?externalID=${id}`);
-  console.log(data);
+  // console.log(data);
   return {
     props: {
       propertyDetails: data,
